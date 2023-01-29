@@ -67,5 +67,36 @@ python -m virtualenv .
 .\scripts\activate
 ```
 
+## MacOS Development
 
+## Installing Homebrew and Core Tools
+
+1. Open "Terminal".
+2. Paste and run the [Homebrew](https://brew.sh) install script:
+
+```bash
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+```
+
+3. Install git.
+
+```cmd
+brew install git
+```
+
+4. Install core tools:
+
+```cmd
+brew install cask docker python3 terraform
+brew cask install cakebrew visual-studio-code
+```
+
+## Installing additional tools
+
+After following the instructions from the above, you should now have the **Cakebrew** app installed, which gives a friendly GUI on top of the Homebrew installer.
+
+To install any additional programs, either open the **Cakebrew** app or copy-paste the below samples into a Terminal window. (You can also find additional packages at [https://brew.sh](https://brew.sh).)
+
+- `brew install awscli`
+- `brew cask install google-chrome`
 
