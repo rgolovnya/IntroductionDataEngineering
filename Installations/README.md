@@ -26,32 +26,46 @@ cmd
 
 3. Install git.
 
-    ```
-    choco install -y git.install --params "/GitOnlyOnPath /SChannel /NoAutoCrlf /WindowsTerminal"
-    ```
+```
+choco install -y git.install --params "/GitOnlyOnPath /SChannel /NoAutoCrlf /WindowsTerminal"
+```
 
 4. Install core tools:
 
-    ```
-    choco install -y choco-protocol-support chocolateygui sudo terraform vscode
-    #choco install -y python3
-    choco install python --version=3.9.5
-    choco install -y docker-desktop
-    
-    choco install 7zip.install --pre
-    ```
+```
+choco install -y choco-protocol-support chocolateygui sudo terraform vscode
+#choco install -y python3
+choco install python --version=3.9.5
+choco install -y docker-desktop
+
+choco install 7zip.install --pre
+```
 
 
-    ```
-    choco install dbeaver
-    ```
+```
+choco install dbeaver
+```
 
-    ```
-    choco install awscli
-    choco install saml2aws
-    ```
+```
+choco install awscli
+choco install saml2aws
+```
 
 
+## Installing additional tools
+
+Install any of the below that would be useful for your project, or find additional packages using [chocolatey.org/packages](https://chocolatey.org/packages)
+
+- [choco://anaconda3](choco://anaconda3) or [choco://miniconda](choco://miniconda)
+- [choco://awscli](choco://awscli)
+- [choco://GoogleChrome](choco://GoogleChrome)
+- [choco://wsl](choco://wsl)
+- [choco://wsl-ubuntu-1804](choco://wsl-ubuntu-1804)
+
+```
+python -m virtualenv .
+.\scripts\activate
+```
 
 
 
