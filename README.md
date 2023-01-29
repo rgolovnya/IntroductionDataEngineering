@@ -8,6 +8,7 @@
 
 - Data Modeling
 
-- Data Quality Management
-
 - Data Analytics
+
+
+- Data Quality Management
