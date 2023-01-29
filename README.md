@@ -1,13 +1,13 @@
 # Introduction to Data Engineering
 
-Installations
+- Installations
 
-Data Acquisition & Integration
+- Data Acquisition & Integration
 
-Data Storage & Databases
+- Data Storage & Databases
 
-Data modeling
+- Data modeling
 
-Data Quality management
+- Data Quality management
 
-Data Analytics
+- Data Analytics
