@@ -1,4 +1,4 @@
-## Installation
+# Installation
 
 1. A **package manager**: Chocolatey (for Windows) or Homebrew (for Mac)
 2. **Git & Github** - version control & platform used to store and manage code.
@@ -6,5 +6,23 @@
 4. **Python** - a software language useful for developing new programs and scripts.
 5. **SQL** - Structured Query Language (SQL) is defined as a standard programming language utilized to extract, organize, manage, and manipulate data
 
+## Installing Chocolatey and Core Tools
+
+1. Open "cmd.exe" as an administrator.
+2. Paste and run the [Chocolatey.org](https://chocolatey.org/docs/installation#install-with-cmdexe) install script:
+
+    ```
+    cmd
+    ```
+    ```
+    @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command " [System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
+    ```
+    ```
+  choco upgrade chocolatey
+    ```
+
+
+
 ```
 ```
+
