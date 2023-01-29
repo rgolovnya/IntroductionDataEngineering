@@ -6,8 +6,8 @@
 
 - Data Storage & Databases
 
-- Data modeling
+- Data Modeling
 
-- Data Quality management
+- Data Quality Management
 
 - Data Analytics
