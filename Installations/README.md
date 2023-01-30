@@ -33,12 +33,10 @@ choco install -y git.install --params "/GitOnlyOnPath /SChannel /NoAutoCrlf /Win
 4. Install core tools:
 
 ```
-choco install -y choco-protocol-support chocolateygui sudo terraform vscode
+choco install chocolatey-vscode
+
 #choco install -y python3
 choco install python --version=3.9.5
-choco install -y docker-desktop
-
-choco install 7zip.install --pre
 ```
 
 
@@ -87,8 +85,9 @@ brew install git
 4. Install core tools:
 
 ```cmd
-brew install cask docker python3 terraform
-brew cask install cakebrew visual-studio-code
+brew install cask python3
+#brew cask install cakebrew visual-studio-code
+brew install --cask visual-studio-code
 ```
 
 ## Installing additional tools
