@@ -100,3 +100,10 @@ To install any additional programs, either open the **Cakebrew** app or copy-pas
 - `brew install awscli`
 - `brew cask install google-chrome`
 
+
+##  [VSCode](https://code.visualstudio.com/docs/python/python-tutorial) [Setup](https://code.visualstudio.com/docs/setup/linux)
+```
+brew install --cask visual-studio-code
+
+# sudo snap install --classic code # linux
+```
